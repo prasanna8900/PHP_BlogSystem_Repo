@@ -1,0 +1,83 @@
+.login{
+/* border: 1px solid red; */
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.896) ;
+    color: #ffffff;
+
+}
+code{
+    color: #8e7268;
+}
+.login-bgImg{
+    background: url('../public/login-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-sub-div{
+    display: block;
+    /* background-color: rgba(237, 237, 237, 0.129); */
+    /* transform: translate(0%,30%); */
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 20px rgba(73, 73, 73, 0.304); */
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+    place-items: center;
+
+}
+input {
+    background-color: transparent !important; /* Removes the background color */
+    border: 1px solid #c4b2abdd !important; /* Optional: Add a border for visibility */
+    padding: 10px;
+    color: white !important;
+
+}
+input:focus {
+    background-color: transparent !important;
+    outline: none !; /* Optional: Removes the focus outline */
+    box-shadow: none !important; /* Removes the Bootstrap blue shadow */
+}
+input::placeholder,
+textarea::placeholder {
+    color: #888 !important; /* Change placeholder text color */
+    opacity: 1 !important; /* Optional: Ensure full opacity */
+}
+
+.btn-dark{
+    width: 100%;
+    background-color: #6d4b3f !important;
+}
+.btn-dark :focus{
+    box-shadow: none !important;
+}
+.btn-dark:hover{
+    background-color: #6d4b3fdb !important;
+    /* color: rgb(255, 255, 255); */
+    transition: 0.3s linear;
+}
+#emailHelp{
+    text-align: right;
+    color: red !important;
+}
+#emailHelp a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+ .pass button.btn-primary{
+    background-color: transparent !important;
+    border: none;
+    /* border-bottom: 1px solid #6d4b3f !important; */
+    font-size: 12px;
+
+}

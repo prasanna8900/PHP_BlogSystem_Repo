@@ -1,0 +1,17 @@
+@media only screen and (orientation: portrait) {
+    .login{
+        display: flex;
+        /* flex-direction: column; */
+
+    }
+    .form-sub-div{
+        transform: translate(0,20%) !important;
+    }
+    .col-4,.col-8{
+        width: 100%;
+        display: block !important;;
+    }
+    /* .login-bgImg{
+        background: none;
+    } */
+}
