@@ -1,0 +1,1 @@
+A full-featured blogging platform with admin controls, built with [PHP/MySQL]. Features secure user authentication, CRUD operations for post management (Create, Read, Update, Delete), and responsive UI. Ideal for content management with:
